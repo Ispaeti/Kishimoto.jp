@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kishimoto | Home</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/index.js" defer></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <a href="#"><img  class = "logo" src="/image/logo.png" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#home">家</a></li>
+                    <li><a href="#about">について</a></li>
+                    <li><a href="#services">サービス</a></li>
+                    <li><a href="#portfolio">ポートフォリオ</a></li>
+                    <li><a href="#contact">接触</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>キシモへようこそ</h2>
+            <p>あらゆるデジタル ニーズに対応するワンストップ ソリューション。</p>
+            <a href="#contact" class="cta-button">連絡する</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>私たちについて/h2>
+            <p>私たちは、Web開発、デザイン、デジタルマーケティングにおいて一流のサービスを提供することに専念する情熱的な専門家のチームです。</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>当社のサービス</h2>
+            <div class="service-item">
+                <h3>ウェブデザイン</h3>
+                <p>お客様のニーズに合わせた美しく機能的なウェブサイト.</p>
+            </div>
+            <div class="service-item">
+                <h3>ウェブ開発</h3>
+                <p>動的で応答性の高い Web アプリケーションの構築.</p>
+            </div>
+            <div class="service-item">
+                <h3>デジタルマーケティング</h3>
+                <p>オンラインでのプレゼンスを最大化し、視聴者に効果的にリーチする.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>私たちのポートフォリオ</h2>
+            <div class="portfolio-item">
+                <img src="/image/image1.jpg" alt="Portfolio 1">
+                <p>プロジェクト 1 の説明</p>
+                <br>
+                <p>この画像では都市建築が強調されており、特徴的な角張った青い階段のある建物が示されています。 
+                    この構成は階段の線と角度を強調し、建物のより伝統的な要素と対比させています。  
+                   シーンは率直でありのままに感じられる</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/image/image2.jpg" alt="Portfolio 2">
+                <p>プロジェクト 2 の説明</p>
+                <br>
+                <p>この画像は、均一な水色のファサードを持つ高層ビルを示しています。
+                      ダークフレームの窓の反復パターンがグリッドのようなテクスチャを作成し、目に見えるパイプとユーティリティ要素が生の機能性の要素を追加します。 
+                     曇り空は柔らかな光をもたらし、建物の色と質感を強調します。</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/image1.jpg" alt="Portfolio 3">
+                <p>プロジェクト 3 の説明</p> 
+                <br>
+                <p>この画像は都市の建築シーンを捉えており、印象的な青い外階段のある建物を強調しています。 
+                    この構成は幾何学的なラインと鮮やかな色を強調し、視覚的に興味深いストリートビューを作り出しています。  
+                    セキュリティゲートと駐車車両の存在が日常の都会的な雰囲気をさらに高めます</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <form action="/submit-form" method="POST">
+                <label for="name">名前:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">電子メール:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">メッセージを送信</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025年鬼子母。無断転載を禁じます。</p>
+            <ul>
+                <li><a href="#">プライバシーポリシー</a></li>
+                <li><a href="#">利用規約</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
